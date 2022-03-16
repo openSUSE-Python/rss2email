@@ -114,6 +114,8 @@ CONFIG['DEFAULT'] = _collections.OrderedDict((
         ('feed-timeout', str(60)),
         # Set the sleep interval (in seconds) between consecutive fetches from the same server
         ('same-server-fetch-interval', str(0)),
+        # Custom HTTP headers (newline separated)
+        ('http-header', ''),
 
         ### Processing
         # True: Fetch, process, and email feeds.
